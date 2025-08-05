@@ -1,0 +1,51 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+     background-image: linear-gradient(to right bottom, #ce1e24, #d22724, #d72f25, #db3625, #df3d26, #e24924, #e45423, #e65e22, #e76e20, #e67d21, #e68b25, #e5992b);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+@font-face {
+    font-family: kungfu;
+    src: url(/images/KungFuPandaRegular-xYjV.ttf);
+}
+.nav-bar{
+    color:yellow;
+    font-family: kungfu;
+    padding:10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.nav-item:hover{
+    border: 2px solid yellow;
+    color:white;
+    padding:10px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+.active{
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid transparent;
+    background-color: yellow;
+    color:#ce1e24;
+    border-radius: 7px;
+}
